@@ -16,9 +16,7 @@ export const BottomTabsNavigator: React.FC = () => {
         tabBarInactiveTintColor: theme.colorBrown,
         tabBarShowLabel: true,
         tabBarStyle:{
-          backgroundColor:"pink",
-          borderTopLeftRadius:15,
-          borderTopRightRadius:15,
+          /* backgroundColor:"#004D4D", */
           paddingHorizontal:10,
           paddingBottom:4,
           height:60,

@@ -39,7 +39,7 @@ const renderItem: ListRenderItem<Blog> = ({ item }) => {
                 }}
               />
 
-              {/* <View style={styles.planCardDivider}></View> */}
+        <View style={styles.planCardDivider}></View> 
             </View>
           ))}
         </ScrollView>
@@ -88,6 +88,12 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     backgroundColor: "#accbff",
     alignItems: "center",
+    /* justifyContent: "center", */
+    marginTop: -20,
+    paddingTop: 30,
+    paddingBottom: 10,
+    paddingHorizontal: 20,
+    paddingVertical: 20,
   },
   paragraph: {
     fontSize: 18,
@@ -106,6 +112,11 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     marginLeft: 10,
   },
+ /*  featureImage: {
+    height: 563,
+      width: "100%",
+      aspectRatio: 0.7,
+  }, */
   title: {
     fontWeight: "900",
     fontSize: 18,
@@ -141,6 +152,13 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     alignSelf: "flex-start",
   },
- 
+  planCardDivider: {
+    alignSelf: "center",
+    borderBottomColor: 'grey',
+    marginBottom: 20,
+    height: 20,
+    borderBottomWidth: 1,
+    width: "90%",
+  },
 
 });
